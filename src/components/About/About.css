@@ -1,0 +1,15 @@
+.about {
+  color: white;
+  background: #202020;
+  /* border: 1px dashed gray; */
+}
+
+.about > .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 50px;
+  box-sizing: border-box;
+  /* background: rgb(209, 255, 232); */
+}
