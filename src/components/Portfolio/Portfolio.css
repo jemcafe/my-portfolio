@@ -34,6 +34,10 @@
   height: 150px;
   border: 1px dashed #fff;
 }
+.portfolio > .container .project-1 .img {
+  background: url('../../assets/images/creation_basin.png');
+  background-size: contain;
+}
 .portfolio > .container .project-2 .img {
   background: url('../../assets/images/woof_walks.png');
   background-size: contain;

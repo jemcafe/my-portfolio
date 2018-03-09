@@ -53,7 +53,7 @@ class Header extends Component {
                         <Scroll type="id" element="_about" offset={-30}>ABOUT</Scroll>
                         <Scroll type="id" element="_whatiuse" offset={-40}>WHAT I USE</Scroll>
                         <Scroll type="id" element="_portfolio" offset={-20}>PORTFOLIO</Scroll>
-                        <Scroll type="id" element="_contact">CONTACT</Scroll>
+                        <Scroll type="id" element="_contact" offset={-30}>CONTACT</Scroll>
                     </nav>
                     
                     <nav className="nav-2">
@@ -69,7 +69,7 @@ class Header extends Component {
                                 <Scroll type="id" element="_about" offset={-30}>ABOUT</Scroll>
                                 <Scroll type="id" element="_whatiuse" offset={-30}>WHAT I USE</Scroll>
                                 <Scroll type="id" element="_portfolio" offset={-20}>PORTFOLIO</Scroll>
-                                <Scroll type="id" element="_contact">CONTACT</Scroll>
+                                <Scroll type="id" element="_contact" offset={-30}>CONTACT</Scroll>
                                 <Scroll type="id" element="_footer">LINKS</Scroll>
                             </div>
                         </Aux> }

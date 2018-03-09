@@ -10,7 +10,7 @@ class Portfolio extends Component {
                     <h3>PORTFOLIO</h3>
                     <ul className="projects">
                         <li className="project-1">
-                            <h4>Personal Project</h4><br/>
+                            <h4>Creation Basin</h4><br/>
                             <div className="img"></div>
                         </li>
                         <li className="project-2">
