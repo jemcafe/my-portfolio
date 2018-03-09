@@ -1,22 +1,16 @@
 {
-  "homepage": "http://jemcafe.github.io/jemcafe.github.io",
+  "homepage": "https://jemcafe.github.io/jemcafe.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.17.1",
-    "body-parser": "^1.18.2",
     "dotenv": "^5.0.0",
-    "express": "^4.16.2",
     "gh-pages": "^1.1.0",
-    "massive": "^4.6.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.0",
-    "react-scroll-to-element": "^0.2.0",
-    "redux": "^3.7.2"
+    "react-scroll-to-element": "^0.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,7 +19,5 @@
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
-  },
-  "main": "server/index.js",
-  "proxy": "http://localhost:3085/"
+  }
 }
