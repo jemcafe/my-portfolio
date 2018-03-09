@@ -20,7 +20,7 @@
     box-sizing: border-box;
 }
 
-.contact form input,textarea {
+.contact form > input,textarea {
     outline: none;
     resize: none;
     color: #fff;
@@ -36,15 +36,27 @@
 
 .contact form .submit-btn {
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin: 35px 0 0 0;
 }
-.contact form .submit-btn > button {
-    color: white;
-    font-size: 14px;
-    letter-spacing: 3px;
-    border-radius: 3px;
-    padding: 10px 20px;
-    background: transparent;
-    cursor: pointer;
+.contact form .submit-btn .btn:hover {
+    background: #383838;
 }
+
+/* contact form .submit-btn .btn {
+    animation-name: "fade-out";
+    animation-duration: 0.5s;
+}
+contact form .submit-btn .btn:hover {
+    animation-name: "fade-in";
+    animation-duration: 0.5s;
+}
+@keyframes fade-in {
+    0% { background: transparent; }
+    100% { background: #383838; }
+}
+@keyframes fade-out {
+    0% { background: #383838; }
+    100% { background: transparent; }
+} */

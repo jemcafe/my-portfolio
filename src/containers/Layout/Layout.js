@@ -8,7 +8,7 @@ import Portfolio from '../../components/Portfolio/Portfolio';
 import Contact from '../../components/Contact/Contact';
 import Footer from '../../components/Footer/Footer';
 
-function Layout (props) {
+export default function Layout (props) {
     return (
         <Aux>
             <Header />
@@ -20,5 +20,3 @@ function Layout (props) {
         </Aux>
     )
 }
-
-export default Layout;

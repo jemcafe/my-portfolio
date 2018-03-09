@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Route } from 'react-router-dom';
 
 import Layout from './containers/Layout/Layout'
 
 class App extends Component {
   render() {
-    return (
-        <Layout></Layout>
-    )
+    return <Layout />
   }
 }
 

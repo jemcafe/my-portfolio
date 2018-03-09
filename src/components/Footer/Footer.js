@@ -4,23 +4,23 @@ import './Footer.css';
 class Footer extends Component {
     render () {
         return (
-            <footer className="footer">
+            <footer id="_footer" className="footer">
                 <div className="container">
 
-                    <ul class="links">
+                    <ul className="links">
                         <li>
                             <a href="https://github.com/jemcafe">
-                                <span class="fab fa-github"></span>
+                                <span className="fab fa-github"></span>
                             </a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/jemaine-brown-65680bb2">
-                                <span class="fab fa-linkedin"></span>
+                                <span className="fab fa-linkedin"></span>
                             </a>
                         </li>
                     </ul>
     
-                    <div>&copy; Jemaine Brown</div>
+                    <div className="copyright">&copy; Jemaine Brown</div>
                 </div>
             </footer>
         );

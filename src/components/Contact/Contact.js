@@ -13,7 +13,7 @@ class Contact extends Component {
                 <div className="container panel">
 
                     <h3>CONTACT</h3>
-                    <form>
+                    <form name="contact_form">
                         NAME<br/>
                         <input type="text"/>
                         EMAIL<br/>
@@ -24,8 +24,8 @@ class Contact extends Component {
                         <input type="text"/>
                         MESSAGE<br/>
                         <textarea type="text" rows="6"></textarea>
-                        <div class="submit-btn">
-                            <button>SUBMIT</button>
+                        <div className="submit-btn">
+                            <input className="btn" type="submit" value="Submit"/>
                         </div>
                     </form>
 
